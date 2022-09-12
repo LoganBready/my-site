@@ -7,9 +7,9 @@ import styles from "../styles/Home.module.css";
 const Home: NextPage = () => {
   return (
     <BaseLayout>
-      <div>
-        <h2 className="text-3xl font-bold">Home Page</h2>
-      </div>
+      <section className={styles.Home} id="Home">
+        <p>Home</p>
+      </section>
     </BaseLayout>
   );
 };
