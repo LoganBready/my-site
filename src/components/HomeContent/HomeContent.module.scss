@@ -19,3 +19,26 @@
 .Typed {
     color: #69696a;
 }
+
+.ContactBtn {
+    width: 192px;
+    height: 52px;
+    background-color: #00df9a;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #1a202c;
+
+    svg {
+        margin-top: 6px;
+        margin-left: 6px;
+    }
+
+}
