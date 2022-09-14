@@ -1,89 +1,110 @@
-@media only screen and (min-width: 0em) {
-    .Header {
-        width: 100vw;
-        max-width: 100%;
-        height: 90px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: fixed;
-        border-bottom: 1px solid red;
-        top: 0;
-        left: 0;
-        z-index: 100;      
-    }
+.Header {
+    height: 100px;
+    width: 100vw;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
 
-    .Container {
-        padding: 0 20px;
-        width: 96%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+.Container {
+    width: 96%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
 
-    .Heading {
+    @media(max-width: 768px) {
+        justify-content: center;
+    }
+}
+
+.Heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+
+    @media(max-width: 768px) {
         display: none;
     }
+}
 
-    .Nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        height: 100%;
+.Nav {
+    display: flex;
+}
+
+.Ul {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.ContactBtn {
+    margin-right: 1em;
+
+    &:hover {
+        a {
+            color:#69696a;
+        }
     }
 
-    .Ul {
+    &:last-of-type {
+        background-color: #fff;
+        width: 152px;
+        height: 48px;
+        border-radius: 4px;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
-        width: 100%;
-    }
+        justify-content: center;
+        cursor: pointer;
 
-    .Atag {
-        text-decoration: none;
-        color: #fff;
-        font-size: 1.2rem;
-        font-weight: 500;
-        padding: 0 10px;
-        transition: all 0.3s ease-in-out;
-
-        &:hover {
-            color: #69696a;
-
+        @media(max-width: 500px) {
+            background-color: unset;
+            width: unset;
+            height: unset;
+            border-radius: unset;
+            display: unset;
+            align-items: unset;
+            justify-content: unset;
         }
 
-        @media(max-width: 440px) {
-            font-size: 1rem;
-        }
-
-    }
-
-    .ContactBtn {
         &:hover {
-            .Bar {
-                width: 100%;
+            background-color: #69696a;
+            @media(max-width: 500px) {
+                background-color: unset;
+
+                a {
+                    color: #69696a;
+                }
             }
         }
-    }
 
-    .Bar {
-        width: 0;
-        height: 2px;
-        background: #69696a;
-        transition: all 0.3s ease-in-out;
-        display: block;
-        margin-top: 5px;
-    }
-}
+        a {
+            color: #000;
 
-@media only screen and (min-width: 48em){
-    .Heading {
-        display: block;
-        font-size: 1.5rem;
-        font-weight: 500;
-        color: #fff;
+            @media(max-width: 500px) {
+                color: #fff;
+            }
+            
+        }
     }
 }
 
+.Atag {
+    font-size: 1.5em;
+    color: #fff;
+
+    @media(max-width: 650px) {
+        font-size: 1em;
+    }
+}
+
+.Bar {
+    width: 0;
+    height: 3px;
+    background-color: #fff;
+    transition: 0.5s;
+}
 // #69696a

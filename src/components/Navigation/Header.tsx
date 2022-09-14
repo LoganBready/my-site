@@ -12,31 +12,26 @@ export const Header = () => {
               <Link href="/">
                 <a className={styles.Atag}>Home</a>
               </Link>
-              <span className={styles.Bar}></span>
             </li>
             <li className={styles.ContactBtn}>
               <Link href="/about">
                 <a className={styles.Atag}>About</a>
               </Link>
-              <span className={styles.Bar}></span>
             </li>
             <li className={styles.ContactBtn}>
               <Link href="/blog">
                 <a className={styles.Atag}>Projects</a>
               </Link>
-              <span className={styles.Bar}></span>
             </li>
             <li className={styles.ContactBtn}>
               <Link href="/blog">
                 <a className={styles.Atag}>Blog</a>
               </Link>
-              <span className={styles.Bar}></span>
             </li>
             <li className={styles.ContactBtn}>
               <Link href="/blog">
                 <a className={styles.Atag}>Contact</a>
               </Link>
-              <span className={styles.Bar}></span>
             </li>
           </ul>
         </nav>
