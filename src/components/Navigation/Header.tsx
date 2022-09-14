@@ -1,11 +1,17 @@
+import Image from "next/image";
 import Link from "next/link";
-import styles from './Header.module.scss';
+import styles from "./Header.module.scss";
 
 export const Header = () => {
   return (
     <header className={styles.Header}>
       <div className={styles.Container}>
-        <h1 className={styles.Heading}>Logan Bready</h1>
+        <Image
+          src="/images/loganbready.png"
+          alt="loganbready"
+          width={284}
+          height={50}
+        />
         <nav className={styles.Nav}>
           <ul className={styles.Ul}>
             <li className={styles.ContactBtn}>
