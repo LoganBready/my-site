@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       <section className={styles.Home} id="Home">
         <HomeContent />
       </section>
-      <section>
+      <section className={styles.About}>
         <AboutSection />
       </section>
       <section>
