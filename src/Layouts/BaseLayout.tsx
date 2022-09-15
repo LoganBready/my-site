@@ -18,6 +18,7 @@ export const BaseLayout = ({ children }: IBaseLayout) => {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
+           <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/> 
         </Head>
         <Header />
         <main id="main-content" data-content="main">

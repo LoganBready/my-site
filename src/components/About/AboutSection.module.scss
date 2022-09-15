@@ -1,9 +1,16 @@
+.Wrapper {
+    background-color: #0f0f0f;
+    max-width: 1512px;
+    margin: 0 auto;
+}
+
 .AboutSection {
     height: 100%;
     width: 100vw;
     max-width: 100%;
     background-color: #0f0f0f;
     padding: 50px 30px;
+
 }
 
 .AboutText {
@@ -30,7 +37,7 @@
 .ProfilePic {
     border-radius: 50%;
     border: 1px solid #fff !important;
-    padding: .3rem;
+    padding: .3rem !important;
 }
 
 .Left {
@@ -44,11 +51,77 @@
     p {
         font-size: 26px;
         color: #8a8f98;
+
+        &:first-of-type {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    }
 }
+
+.ContentContainer {
+    width: 100%;
+    display: flex;
 }
 
 .Right {
     width: 50%;
     height: 100%;
+    min-height: 600px;
     padding: 0 30px;
+    display: flex;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 33.33%;
+    height: 100%;
+    min-height: 600px;
+    padding: 0 30px;
+}
+
+.IconContainer {
+    position: relative;
+    border-width: 3px;
+    padding: 15px 30px;
+    border-style: solid;
+    border-image: linear-gradient(55deg, rgba(105,105,106,1) 0%, rgba(0,223,154,1) 35%, rgba(255,255,255,1) 100%) 1;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+    h3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+        color: #fff;
+        z-index: 100;
+        display: none;
+            
+    }
+
+    svg {
+        width: 90px;
+        height: auto;
+    }
+
+    i {
+        font-size: 90px !important;
+        color: #fff;
+    }
+
+    &:hover {
+        svg, i {
+            opacity: 0.1;
+
+        }
+        h3 {
+            display: block;
+
+        }
+    }
 }
