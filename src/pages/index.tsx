@@ -3,6 +3,7 @@ import Head from "next/head";
 import { BaseLayout } from "../Layouts/BaseLayout";
 import styles from "../styles/Home.module.css";
 import { HomeContent } from "../components/HomeContent/HomeContent";
+import { AboutSection } from "../components/About/AboutSection";
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +12,7 @@ const Home: NextPage = () => {
         <HomeContent />
       </section>
       <section>
-        <p>About</p>
+        <AboutSection />
       </section>
       <section>
         <p>Projects</p>

@@ -1,0 +1,54 @@
+.AboutSection {
+    height: 100%;
+    width: 100vw;
+    max-width: 100%;
+    background-color: #0f0f0f;
+    padding: 50px 30px;
+}
+
+.AboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+
+    h1 {
+        font-size: 60px;
+        color: #fff;
+        z-index: 100;
+    }
+}
+
+.Bar {
+    width: 140px;
+    height: 5px;
+    background-color: #00df9a;
+}
+
+.ProfilePic {
+    border-radius: 50%;
+    border: 1px solid #fff !important;
+    padding: .3rem;
+}
+
+.Left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    p {
+        font-size: 26px;
+        color: #8a8f98;
+}
+}
+
+.Right {
+    width: 50%;
+    height: 100%;
+    padding: 0 30px;
+}
