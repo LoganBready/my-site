@@ -6,11 +6,12 @@ export const Header = () => {
   return (
     <header className={styles.Header}>
       <div className={styles.Container}>
-        <Image
+        <img
           src="/images/loganbready.png"
-          alt="loganbready"
+          alt="Profile Image"
           width={284}
           height={50}
+          className={styles.Logo}
         />
         <nav className={styles.Nav}>
           <ul className={styles.Ul}>
@@ -27,11 +28,6 @@ export const Header = () => {
             <li className={styles.ContactBtn}>
               <Link href="/blog">
                 <a className={styles.Atag}>Projects</a>
-              </Link>
-            </li>
-            <li className={styles.ContactBtn}>
-              <Link href="/blog">
-                <a className={styles.Atag}>Blog</a>
               </Link>
             </li>
             <li className={styles.ContactBtn}>

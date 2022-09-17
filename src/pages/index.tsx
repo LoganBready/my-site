@@ -4,6 +4,7 @@ import { BaseLayout } from "../Layouts/BaseLayout";
 import styles from "../styles/Home.module.css";
 import { HomeContent } from "../components/HomeContent/HomeContent";
 import { AboutSection } from "../components/About/AboutSection";
+import { ProjectsContent } from "../components/ProjectsContent";
 
 const Home: NextPage = () => {
   return (
@@ -14,9 +15,7 @@ const Home: NextPage = () => {
       <section className={styles.About}>
         <AboutSection />
       </section>
-      <section>
-        <p>Projects</p>
-      </section>
+      <ProjectsContent />
       <section>
         <p>Blog</p>
       </section>
