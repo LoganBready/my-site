@@ -15,7 +15,7 @@ export const AboutSection = () => {
               <div className={styles.Left}>
                 <Image className={styles.ProfilePic} height={256} width={256} src="/images/profile.jpg" alt="profile picture" />
                 <p>Social worker turned web developer.  Consistently learning and committed to never being satisfied with my level of web development knowledge.</p>
-                <p>When I'm not building the web, I'm spending time with my wife, son, and dog!  I also enjoy playing video games and fly fishing.</p>
+                <p>When I&apos;m not building the web, I&apos;m spending time with my wife, son, and dog!  I also enjoy playing video games and fly fishing.</p>
               </div>
               <div className={styles.Right}>
                 <div className={styles.Column}>
