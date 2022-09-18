@@ -1,16 +1,2 @@
-.Home {
-  width: 100vw;
-  max-width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 
-.About {
-  width: 100vw;
-  max-width: 100%;
-  background-color: #0f0f0f;
-  height: 100%;
-}
+

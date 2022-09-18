@@ -1,0 +1,88 @@
+.Contact {
+    width: 100vw;
+    max-width: 100%;
+    height: 100%;
+    padding: 48px 0 96px 0;
+    background-color: #0f0f0f;
+}
+
+.Wrapper {
+    max-width: 1512px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.FormContainer {
+    width: 100%;
+    padding: 48px 30px 0;
+    max-width: 640px;
+}
+
+.Fieldset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    label {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        color: #85868e;
+    }
+
+    input {
+        color: #fff;
+        width: 100%;
+        max-width: 100%;
+        height: 46px;
+        border-radius: 3px;
+        background-color: #1c1d21;
+        border: 1px solid rgb(54, 56, 69);
+        padding: 9px 10px;
+    }
+
+    textarea {
+        color: #fff;
+        width: 100%;
+        max-width: 100%;
+        height: 46px;
+        border-radius: 3px;
+        background-color: #1c1d21;
+        border: 1px solid rgb(54, 56, 69);
+        padding: 9px 10px;
+        height: 140px;
+        font-weight: normal;
+        line-height: 22px;
+        display: inline-block;
+    }
+}
+
+.NameDiv, .EmailDiv, .MessageDiv {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.InputBtn {
+    background-color: #00df9a;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #0f0f0f;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 15px;
+}

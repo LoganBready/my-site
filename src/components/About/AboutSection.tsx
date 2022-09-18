@@ -4,6 +4,7 @@ import styles from './AboutSection.module.scss';
 
 export const AboutSection = () => {
     return (
+      <section className={styles.About} id="About">
         <div className={styles.Wrapper}>
           <div className={styles.AboutSection}>
             <div className={styles.AboutText}>
@@ -57,5 +58,7 @@ export const AboutSection = () => {
             </div>
           </div>
         </div>
+
+      </section>
     )
 }
