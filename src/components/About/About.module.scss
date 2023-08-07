@@ -1,0 +1,15 @@
+.aboutContainer {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headShotContainer {
+    height: 250px;
+    width: 250px;
+
+    img {
+        border-radius: 50%;
+        border: 5px solid #E06C75;
+    }
+}

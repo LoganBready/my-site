@@ -1,6 +1,6 @@
 // react | next
 import Head from "next/head";
-import { Header } from "../components/Navigation/Header";
+import { Navigation } from "../components/Navigation";
 // components
 
 interface IBaseLayout {
@@ -12,6 +12,7 @@ export const BaseLayout = ({ children }: IBaseLayout) => {
     <>
       <div style={{ position: "relative" }}>
         <Head>
+          <title>Logan Bready</title>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
@@ -20,11 +21,10 @@ export const BaseLayout = ({ children }: IBaseLayout) => {
           />
            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/> 
         </Head>
-        <Header />
+        <Navigation />
         <main id="main-content" data-content="main">
           {children}
         </main>
-        {/* <Footer /> */}
       </div>
     </>
   );
