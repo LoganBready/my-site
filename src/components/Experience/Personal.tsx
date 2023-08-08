@@ -3,6 +3,7 @@ import styles from './Personal.module.scss';
 
 interface PersonalProps {
     title: string;
+    id: number;
     description: string;
     githubLink: string;
     demoLink?: string;
@@ -13,9 +14,9 @@ interface PersonalProps {
     image: string;
 }
 
-export const Personal = ({ title, description, githubLink, demoLink, publishedLink, skills, image }: PersonalProps) => {
+export const Personal = ({ title, id, description, githubLink, demoLink, publishedLink, skills, image }: PersonalProps) => {
     return (
-        <div>
+        <div className={styles.experienceContainer}>
             <div className={styles.imageContainer}>
                 {/* <Link href={link.href}>
                     <Image src={link.image} alt={companyName} />

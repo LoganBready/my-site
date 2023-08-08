@@ -4,6 +4,7 @@ import Link from 'next/link';
 
 interface ProfessionalProps {
     companyName: string;
+    id: number;
     dates: {
         dateStart: string;
         dateEnd?: string;
@@ -19,9 +20,9 @@ interface ProfessionalProps {
     }
 }
 
-export const Professional = ({ companyName, dates, title, description, skills, link }: ProfessionalProps) => {
+export const Professional = ({ companyName, id, dates, title, description, skills, link }: ProfessionalProps) => {
     return (
-        <div>
+        <div className={styles.professionalExperienceContainer}>
             <div className={styles.imageContainer}>
                 <Link href={link.href}>
                     <Image src={link.image} alt={companyName} />

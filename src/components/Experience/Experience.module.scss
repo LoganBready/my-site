@@ -1,0 +1,22 @@
+.experienceContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 700px;
+}
+
+.professionalExperienceContainer {
+  display: flex;
+}
+
+.informationContainer {
+  flex: 0 0 70%;
+}
+
+.imageContainer {
+  flex: 0 0 15%;
+}
+
+.skillsContainer {
+  flex: 0 0 15%;
+}

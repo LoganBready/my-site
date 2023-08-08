@@ -9,7 +9,7 @@ export const BaseLayout = ({ children }: IBaseLayout) => {
     <>
       <div style={{ position: "relative" }}>
         <Head>
-          <title>Logan Bready💻</title>
+          <title>Logan Bready 💻</title>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
