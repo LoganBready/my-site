@@ -1,18 +1,25 @@
-import { useState } from "react";
-import { HamburgerIcon } from "../Icons/HamburgerIcon"
+import { useState } from 'react'
+import { HamburgerIcon } from '../Icons/HamburgerIcon'
 
 export const Hamburger = () => {
-    const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false)
 
-    const onHamburgerClick = () => {
-      setIsExpanded(prevState => !prevState);
-    };
-    return (
-        <>
-            <button onClick={onHamburgerClick}>
-                <HamburgerIcon height={50} width={50} className="" onClick={() => console.log('clicked')} color="" backgroundColor=""/>
-            </button>
-            {/* <button
+  const onHamburgerClick = () => {
+    setIsExpanded((prevState) => !prevState)
+  }
+  return (
+    <>
+      <button onClick={onHamburgerClick}>
+        <HamburgerIcon
+          height={50}
+          width={50}
+          className=""
+          onClick={() => console.log('clicked')}
+          color=""
+          backgroundColor=""
+        />
+      </button>
+      {/* <button
       className="button-three"
       aria-controls="primary-navigation"
       aria-expanded={isExpanded ? "true" : "false"}
@@ -35,6 +42,6 @@ export const Hamburger = () => {
         ></path>
       </svg>
     </button> */}
-        </>
-    )
+    </>
+  )
 }

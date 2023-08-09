@@ -1,8 +1,8 @@
 export interface IconType {
-    className?: string;
-    height?: number;
-    width?: number;
-    color?: string;
-    backgroundColor?: string;
-    onClick?: () => void;
+  className?: string
+  height?: number
+  width?: number
+  color?: string
+  backgroundColor?: string
+  onClick?: () => void
 }

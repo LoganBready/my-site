@@ -1,28 +1,28 @@
 .aboutContainer {
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .headShotContainer {
-    height: 250px;
-    width: 250px;
-    cursor: pointer;
+  height: 250px;
+  width: 250px;
+  cursor: pointer;
 
-    img {
-        border-radius: 50%;
-        border: 5px solid #E06C75;
-    }
+  img {
+    border-radius: 50%;
+    border: 5px solid #e06c75;
+  }
 }
 
 .aboutInformation {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .linksContainer {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
