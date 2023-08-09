@@ -1,22 +1,90 @@
 .experienceContainer {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   max-width: 700px;
 }
 
 .professionalExperienceContainer {
   display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
+.terminalButton {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  position: relative;
+  background-color: #ff3b47;
+  border-color: #9d252b;
+  display: inline-block;
+}
+
+.terminalMenu {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  height: 25px;
+  gap: 5px;
+  padding-left: 10px;
+  align-items: center;
+  background-color: #bbb;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.terminalMinimize {
+  background-color: #ffc100;
+  border-color: #9d802c;
+}
+
+.terminalOpen {
+  background-color: #00d742;
+  border-color: #049931;
+}
+
+.terminalScreen {
+  background-color: #151515;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 100%;
+}
+
+// Content
 .informationContainer {
-  flex: 0 0 70%;
-}
+  .title {
+    color: #9CD9F0;
+  }
 
-.imageContainer {
-  flex: 0 0 15%;
+  .dates {
+    color: #9CD9F0;
+  }
+
+  p {
+    text-align: left;
+    font-size: 1.25em;
+    font-family: monospace;
+    white-space: normal;
+  }
+
+  .company {
+    color: #E09690;
+    margin: 0;
+  }
+
+  .description {
+    color: #CDEE69;
+  }
 }
 
 .skillsContainer {
-  flex: 0 0 15%;
+  ul {
+    padding-left: 13px;
+  }
+  .skills {
+    color: #CDEE69
+  }
 }

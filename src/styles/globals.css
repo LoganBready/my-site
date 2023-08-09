@@ -26,15 +26,5 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 0 50px;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+  padding: 50px;
 }
