@@ -6,7 +6,7 @@ export const professionalExperienceData = [
             dateStart: 'Oct 2021',
         },
         title: 'Software Engineer',
-        description: 'Worked on a variety of client websites in agile teams using technologies such as Next.js, TypeScript, SCSS, Recoil, Express, Node, and Sanity.io.',
+        description: 'Worked on a variety of client websites in agile teams using technologies such as Next.js, TypeScript, SCSS, Recoil, Express, Node, jest, and cypress.',
         skills: [
             {
                 title: 'Next.js'
