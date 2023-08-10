@@ -1,14 +1,7 @@
 import { IconType } from './Icon.types'
 import styles from './HamburgerIcon.module.scss'
 
-export const HamburgerIcon = ({
-  className,
-  height,
-  width,
-  color,
-  backgroundColor,
-  onClick,
-}: IconType) => {
+export const HamburgerIcon = ({ height, width, onClick }: IconType) => {
   return (
     <svg width={width} height={height} onClick={onClick} viewBox="0 0 100 100">
       <path

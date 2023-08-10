@@ -1,6 +1,4 @@
-import Image from 'next/image'
 import styles from './Experience.module.scss'
-import Link from 'next/link'
 
 interface ProfessionalProps {
   companyName: string
@@ -22,12 +20,10 @@ interface ProfessionalProps {
 
 export const Professional = ({
   companyName,
-  id,
   dates,
   title,
   description,
   skills,
-  link,
 }: ProfessionalProps) => {
   return (
     <div className={styles.professionalExperienceContainer}>

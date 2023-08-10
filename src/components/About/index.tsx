@@ -13,7 +13,7 @@ export const About = () => {
     <div className={styles.aboutContainer}>
       <div
         className={styles.headShotContainer}
-        onMouseOver={() => setImageSrc(clearLogan)} // Switch image source on mouse over
+        onMouseOver={() => setImageSrc(clearLogan)}
         onMouseOut={() => setImageSrc(eightBitLogan)}
       >
         <Image src={imageSrc} alt="8-bit-logan" height="250" width="250" />
@@ -27,13 +27,14 @@ export const About = () => {
       </div>
       <div className={styles.aboutMe}>
         <p>
-          I'm a passionate front-end developer who loves creating awesome
+          I&apos;m a passionate front-end developer who loves creating awesome
           digital experiences. With my skills in JavaScript/TypeScript,
-          CSS/HTML, and React I've delivered seamless user experiences while
-          keeping business needs in mind. I'm all about optimizing workflows and
-          boosting productivity. I'm a go-getter, always up for new challenges,
-          and I love using my tech and leadership know-how to rock projects for
-          clients and users. Let's connect and make something awesome together!
+          CSS/HTML, and React I&apos;ve delivered seamless user experiences
+          while keeping business needs in mind. I&apos;m all about optimizing
+          workflows and boosting productivity. I&apos;m a go-getter, always up
+          for new challenges, and I love using my tech and leadership know-how
+          to rock projects for clients and users. Let&apos;s connect and make
+          something awesome together!
         </p>
       </div>
     </div>
