@@ -15,13 +15,10 @@ interface PersonalProps {
 
 export const Personal = ({
   title,
-  id,
   description,
   githubLink,
   demoLink,
-  publishedLink,
   skills,
-  image,
 }: PersonalProps) => {
   return (
     <div className={styles.experienceContainer}>
