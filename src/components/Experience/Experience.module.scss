@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'sans-pro';
+  src: url('../../../public/fonts/SourceSansPro-Bold.otf');
+}
+
 .experienceContainer {
   width: 100%;
   max-width: 700px;
@@ -87,4 +92,10 @@
   .skills {
     color: #cdee69;
   }
+}
+
+.title {
+  font-family: 'sans-pro', monospace;
+  color: #98c379;
+  font-size: 1.5rem;
 }

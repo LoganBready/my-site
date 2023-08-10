@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'sans-pro';
+  src: url('../../../public/fonts/SourceSansPro-Bold.otf');
+}
+
 .list {
   margin: 0;
   padding: 0;
@@ -7,4 +12,7 @@
 
 .listItems {
   gap: 5px;
+  font-family: 'sans-pro', monospace;
+  border-bottom: 1px solid #61afef;
+  color: #61afef;
 }

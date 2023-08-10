@@ -10,7 +10,7 @@ export const Experience = () => {
   return (
     <div className={styles.experienceContainer}>
       <div className="professionalExperienceContainer">
-        <h3>Professional Experience:</h3>
+        <h3 className={styles.title}>Professional Experience:</h3>
         {professionalExperienceData.map((experience) => (
           <Professional
             key={experience.id}
@@ -25,7 +25,7 @@ export const Experience = () => {
         ))}
       </div>
       <div className="personalExperienceContainer">
-        <h3>Personal Experience:</h3>
+        <h3 className={styles.title}>Personal Experience:</h3>
         {personalExperienceData.map((experience) => (
           <Personal
             key={experience.id}

@@ -1,7 +1,21 @@
+@font-face {
+  font-family: 'cascadia';
+  src: url('../../../public/fonts/Cascadia.ttf');
+}
+@font-face {
+  font-family: 'sans-pro';
+  src: url('../../../public/fonts/SourceSansPro-Bold.otf');
+}
+@font-face {
+  font-family: 'sans-bold';
+  src: url('../../../public/fonts/SourceSansPro-Regular.otf');
+}
+
 .aboutContainer {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .headShotContainer {
@@ -11,13 +25,27 @@
 
   img {
     border-radius: 50%;
-    border: 5px solid #e06c75;
+    border: 5px solid #c678dd;
   }
 }
 
 .aboutInformation {
   width: 100%;
   text-align: center;
+
+  .heading {
+    font-family: 'cascadia', monospace;
+    font-size: 2.5rem;
+    color: #e06c75;
+    margin-bottom: 0;
+  }
+
+  .title {
+    font-family: 'sans-pro', monospace;
+    font-size: 1.5rem;
+    color: #e5c07b;
+    margin-top: 5px;
+  }
 }
 
 .linksContainer {

@@ -19,8 +19,8 @@ export const About = () => {
         <Image src={imageSrc} alt="8-bit-logan" height="250" width="250" />
       </div>
       <div className={styles.aboutInformation}>
-        <h1>Logan Bready</h1>
-        <h3>Front-End Engineer</h3>
+        <h1 className={styles.heading}>Logan Bready</h1>
+        <h3 className={styles.title}>Front-End Engineer</h3>
       </div>
       <div className={styles.linksContainer}>
         <Links linksData={linksData} />
