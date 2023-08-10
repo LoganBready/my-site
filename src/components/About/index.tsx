@@ -25,6 +25,17 @@ export const About = () => {
       <div className={styles.linksContainer}>
         <Links linksData={linksData} />
       </div>
+      <div className={styles.aboutMe}>
+        <p>
+          I'm a passionate front-end developer who loves creating awesome
+          digital experiences. With my skills in JavaScript/TypeScript,
+          CSS/HTML, and React I've delivered seamless user experiences while
+          keeping business needs in mind. I'm all about optimizing workflows and
+          boosting productivity. I'm a go-getter, always up for new challenges,
+          and I love using my tech and leadership know-how to rock projects for
+          clients and users. Let's connect and make something awesome together!
+        </p>
+      </div>
     </div>
   )
 }

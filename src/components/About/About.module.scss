@@ -54,3 +54,15 @@
   align-items: center;
   justify-content: center;
 }
+
+.aboutMe {
+  width: 100%;
+  max-width: 700px;
+
+  p {
+    color: #abb2bf;
+    font-size: 18px;
+    font-family: 'cascadia', monospace;
+    margin-top: 42px;
+  }
+}

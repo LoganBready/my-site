@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import styles from './Personal.module.scss'
 
 interface PersonalProps {
@@ -38,11 +37,6 @@ export const Personal = ({
         ></div>
       </div>
       <div className={styles.terminalScreen}>
-        <div className={styles.imageContainer}>
-          {/* <Link href={link.href}>
-                        <Image src={link.image} alt={companyName} />
-                    </Link> */}
-        </div>
         <div className={styles.informationContainer}>
           <h3 className={styles.company}>{title}</h3>
           <p className={styles.description}>{description}</p>
@@ -55,6 +49,10 @@ export const Personal = ({
               </li>
             ))}
           </ul>
+        </div>
+        <div className="linksContainer">
+          <a href={githubLink}>Github Link</a>
+          {demoLink && <a href={demoLink}>Demo Link</a>}
         </div>
       </div>
     </div>
