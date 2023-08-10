@@ -22,6 +22,6 @@ export const linksData = [
   {
     id: 3,
     title: 'Resume',
-    href: 'https://docs.google.com/document/d/1Nr90JkWdUvSvC_sVgazSfdcN-kjtjFacb4iXU-Ev_SY/edit?usp=sharing',
+    href: 'https://docs.google.com/document/d/1RRvb7UbyQ_ygumW3d29EVx4y0Iyc3ht6fzk-6vvubJE/edit?usp=sharing',
   },
 ]
