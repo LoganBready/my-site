@@ -32,6 +32,26 @@ export const professionalExperienceData = [
 export const personalExperienceData = [
   {
     id: 1,
+    title: 'Another Weather App...',
+    description:
+      'Everyones least favorite thing.  A weather app built in next.js',
+    githubLink: '',
+    demoLink: '',
+    publishedLink: '',
+    skills: [
+      {
+        title: 'Next.js',
+      },
+      {
+        title: 'SCSS',
+      },
+      {
+        title: 'APIs',
+      },
+    ],
+  },
+  {
+    id: 2,
     title: 'The Fishing Store',
     description: 'Full Stack E-Commerce store',
     githubLink: '',
