@@ -20,14 +20,14 @@ export const About = () => {
       </div>
       <div className={styles.aboutInformation}>
         <h1 className={styles.heading}>Logan Bready</h1>
-        <h3 className={styles.title}>Front-End Engineer</h3>
+        <h3 className={styles.title}>Full Stack Engineer</h3>
       </div>
       <div className={styles.linksContainer}>
         <Links linksData={linksData} />
       </div>
       <div className={styles.aboutMe}>
         <p>
-          I&apos;m a passionate front-end developer who loves creating awesome
+          I&apos;m a passionate Full-Stack developer who loves creating awesome
           digital experiences. With my skills in JavaScript/TypeScript,
           CSS/HTML, and React I&apos;ve delivered seamless user experiences
           while keeping business needs in mind. I&apos;m all about optimizing

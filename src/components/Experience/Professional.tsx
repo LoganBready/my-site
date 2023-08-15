@@ -3,7 +3,7 @@ import styles from './Experience.module.scss'
 interface ProfessionalProps {
   companyName: string
   id: number
-  dates: {
+  dates?: {
     dateStart: string
     dateEnd?: string
   }
@@ -42,9 +42,11 @@ export const Professional = ({
         <div className={styles.informationContainer}>
           <h3 className={styles.company}>{companyName}</h3>
           <p className={styles.title}>{title}</p>
-          <p className={styles.dates}>
-            {dates.dateStart} - {dates.dateEnd ? dates.dateEnd : 'Current'}
-          </p>
+          {dates && (
+            <p className={styles.dates}>
+              {dates.dateStart} - {dates.dateEnd ? dates.dateEnd : 'Current'}
+            </p>
+          )}
           <p className={styles.description}>{description}</p>
         </div>
         <div className={styles.skillsContainer}>

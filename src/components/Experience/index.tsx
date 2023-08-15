@@ -9,7 +9,7 @@ import styles from './Experience.module.scss'
 export const Experience = () => {
   return (
     <div className={styles.experienceContainer}>
-      <div className="professionalExperienceContainer">
+      <div className={styles.professionalExperienceContainer}>
         <h3 className={styles.title}>Professional Experience:</h3>
         {professionalExperienceData.map((experience) => (
           <Professional
@@ -24,7 +24,7 @@ export const Experience = () => {
           />
         ))}
       </div>
-      <div className="personalExperienceContainer">
+      <div className={styles.personalExperienceContainer}>
         <h3 className={styles.title}>Personal Experience:</h3>
         {personalExperienceData.map((experience) => (
           <Personal
