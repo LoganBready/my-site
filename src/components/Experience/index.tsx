@@ -7,6 +7,7 @@ import {
 import styles from './Experience.module.scss'
 
 export const Experience = () => {
+  console.log(professionalExperienceData.length)
   return (
     <div className={styles.experienceContainer}>
       <div className={styles.professionalExperienceContainer}>

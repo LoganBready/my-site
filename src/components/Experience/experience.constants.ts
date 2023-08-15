@@ -107,7 +107,7 @@ export const professionalExperienceData = [
       },
     ],
     link: {
-      href: 'https://You.com',
+      href: '',
       image: '',
     },
   },

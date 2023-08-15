@@ -24,6 +24,7 @@ export const Professional = ({
   title,
   description,
   skills,
+  link,
 }: ProfessionalProps) => {
   return (
     <div className={styles.professionalExperienceContainer}>
@@ -57,6 +58,11 @@ export const Professional = ({
               </li>
             ))}
           </ul>
+        </div>
+        <div className={styles.linkContainer}>
+          <a href={link.href} target="__blank">
+            {link.href}
+          </a>
         </div>
       </div>
     </div>

@@ -97,8 +97,17 @@
 }
 
 .title {
-  font-family: 'sans-pro', monospace;
+  font-family: monospace;
   color: #98c379;
   font-size: 1.5rem;
   margin-bottom: 5px;
+}
+
+.linkContainer {
+  a {
+    text-decoration: underline;
+    font-size: 1rem;
+    font-family: monospace;
+    color: #61afef;
+  }
 }
