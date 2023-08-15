@@ -54,7 +54,7 @@ export const Personal = ({
               {demoLink && <a href={demoLink}>Demo Link</a>}
             </>
           ) : (
-            <p>Link Coming soon....</p>
+            <p>Link Coming soon.....</p>
           )}
         </div>
       </div>
