@@ -48,8 +48,14 @@ export const Personal = ({
           </ul>
         </div>
         <div className="linksContainer">
-          <a href={githubLink}>Github Link</a>
-          {demoLink && <a href={demoLink}>Demo Link</a>}
+          {githubLink ? (
+            <>
+              <a href={githubLink}>Github Link</a>
+              {demoLink && <a href={demoLink}>Demo Link</a>}
+            </>
+          ) : (
+            <p>Link Coming soon....</p>
+          )}
         </div>
       </div>
     </div>
