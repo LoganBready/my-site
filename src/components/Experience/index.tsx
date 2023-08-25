@@ -25,7 +25,7 @@ export const Experience = () => {
           />
         ))}
       </div>
-      <div className={styles.personalExperienceContainer}>
+      {/* <div className={styles.personalExperienceContainer}>
         <h3 className={styles.title}>Personal Experience:</h3>
         {personalExperienceData.map((experience) => (
           <Personal
@@ -40,7 +40,7 @@ export const Experience = () => {
             image=""
           />
         ))}
-      </div>
+      </div> */}
     </div>
   )
 }

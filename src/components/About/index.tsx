@@ -28,9 +28,9 @@ export const About = () => {
       <div className={styles.aboutMe}>
         <p>
           I&apos;m a passionate Full-Stack developer who loves creating awesome
-          digital experiences. With my skills in JavaScript/TypeScript,
-          CSS/HTML, and React I&apos;ve delivered seamless user experiences
-          while keeping business needs in mind. I&apos;m all about optimizing
+          digital experiences. With my skills in JavaScript / TypeScript, CSS /
+          HTML, and React I&apos;ve delivered seamless user experiences while
+          keeping business needs in mind. I&apos;m all about optimizing
           workflows and boosting productivity. I&apos;m a go-getter, always up
           for new challenges, and I love using my tech and leadership know-how
           to rock projects for clients and users. Let&apos;s connect and make

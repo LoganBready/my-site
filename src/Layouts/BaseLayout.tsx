@@ -1,13 +1,13 @@
-import Head from "next/head";
+import Head from 'next/head'
 
 interface IBaseLayout {
-  children?: React.ReactNode;
+  children?: React.ReactNode
 }
 
 export const BaseLayout = ({ children }: IBaseLayout) => {
   return (
     <>
-      <div style={{ position: "relative" }}>
+      <div style={{ position: 'relative' }}>
         <Head>
           <title>Logan Bready 💻</title>
           <meta charSet="utf-8" />
@@ -16,12 +16,15 @@ export const BaseLayout = ({ children }: IBaseLayout) => {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-           <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/> 
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+          />
         </Head>
         <main id="main-content" data-content="main">
           {children}
         </main>
       </div>
     </>
-  );
-};
+  )
+}
