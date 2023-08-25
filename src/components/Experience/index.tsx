@@ -1,8 +1,8 @@
-import { Personal } from './Personal'
+// import { Personal } from './Personal'
 import { Professional } from './Professional'
 import {
   professionalExperienceData,
-  personalExperienceData,
+  // personalExperienceData,
 } from './experience.constants'
 import styles from './Experience.module.scss'
 
