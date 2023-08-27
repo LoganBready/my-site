@@ -24,3 +24,5 @@ export const LinkedIn = memo(
     </svg>
   )
 )
+
+LinkedIn.displayName = 'LinkedIn'

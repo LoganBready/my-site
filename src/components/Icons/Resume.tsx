@@ -20,3 +20,5 @@ export const Resume = memo(({ className, color, height, width }: IconType) => (
     <path d="M8 18v-12a2 2 0 1 0 -4 0v12" />
   </svg>
 ))
+
+Resume.displayName = 'Resume'
