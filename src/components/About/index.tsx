@@ -22,14 +22,14 @@ export const About = () => {
       </div>
       <div className={styles.aboutMe}>
         <p>
-          Hi there! I'm a passionate full stack engineer with a flair for
+          Hi there! I&apos;m a passionate full stack engineer with a flair for
           crafting dynamic and user-centric web applications. My journey in the
           tech realm has revolved around harnessing the power of React,
           TypeScript/JavaScript, HTML, CSS, Express, and Node.js. I thrive on
           the creative synergy between design and functionality, and I love
           transforming innovative ideas into robust, seamless digital
           experiences. From building intuitive front-end interfaces to
-          architecting efficient back-end systems, I'm committed to delivering
+          architecting efficient back-end systems, I&apos;m committed to delivering
           solutions that strike the perfect balance between aesthetics and
           performance.
         </p>
