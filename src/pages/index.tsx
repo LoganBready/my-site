@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
-import { BaseLayout } from "../Layouts/BaseLayout";
-import { About } from "../components/About";
-import { Experience } from "../components/Experience";
+import type { NextPage } from 'next'
+import { BaseLayout } from '../Layouts/BaseLayout'
+import { About } from '../components/About'
+import { Experience } from '../components/Experience'
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <Experience />
       </div>
     </BaseLayout>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

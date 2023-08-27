@@ -22,9 +22,6 @@ export const About = () => {
         <h1 className={styles.heading}>Logan Bready</h1>
         <h3 className={styles.title}>Full Stack Engineer</h3>
       </div>
-      <div className={styles.linksContainer}>
-        <Links linksData={linksData} />
-      </div>
       <div className={styles.aboutMe}>
         <p>
           I&apos;m a passionate Full-Stack developer who loves creating awesome
