@@ -5,8 +5,11 @@ import { Resume } from '../Icons/Resume'
 import { Tooltip } from 'react-tooltip'
 import 'react-tooltip/dist/react-tooltip.css'
 import styles from './Navigation.module.scss'
+import useScreenSize from '../../hooks/useWindowSize'
 
 export const Navigation = () => {
+  const { width } = useScreenSize()
+  const isMobile = width < 500
   return (
     <div className={styles.navigation}>
       <nav className={styles.nav}>
@@ -26,7 +29,13 @@ export const Navigation = () => {
                 color="#ABB2BF"
               />
             </Link>
-            <Tooltip id="linkedIn" place="bottom" className={styles.toolTip} />
+            {!isMobile && (
+              <Tooltip
+                id="linkedIn"
+                place="bottom"
+                className={styles.toolTip}
+              />
+            )}
           </li>
           <li>
             <Link
@@ -42,7 +51,9 @@ export const Navigation = () => {
                 color="#ABB2BF"
               />
             </Link>
-            <Tooltip id="Github" place="bottom" className={styles.toolTip} />
+            {!isMobile && (
+              <Tooltip id="Github" place="bottom" className={styles.toolTip} />
+            )}
           </li>
           <li>
             <Link
@@ -58,7 +69,9 @@ export const Navigation = () => {
                 color="#ABB2BF"
               />
             </Link>
-            <Tooltip id="Resume" place="bottom" className={styles.toolTip} />
+            {!isMobile && (
+              <Tooltip id="Resume" place="bottom" className={styles.toolTip} />
+            )}
           </li>
         </ul>
       </nav>
