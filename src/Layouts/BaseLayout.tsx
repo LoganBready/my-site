@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { Navigation } from '../components/Navigation'
 
 interface IBaseLayout {
   children?: React.ReactNode
@@ -21,6 +22,7 @@ export const BaseLayout = ({ children }: IBaseLayout) => {
             href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
           />
         </Head>
+        <Navigation />
         <main id="main-content" data-content="main">
           {children}
         </main>
