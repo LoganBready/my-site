@@ -29,9 +29,9 @@ export const About = () => {
           the creative synergy between design and functionality, and I love
           transforming innovative ideas into robust, seamless digital
           experiences. From building intuitive front-end interfaces to
-          architecting efficient back-end systems, I&apos;m committed to delivering
-          solutions that strike the perfect balance between aesthetics and
-          performance.
+          architecting efficient back-end systems, I&apos;m committed to
+          delivering solutions that strike the perfect balance between
+          aesthetics and performance.
         </p>
       </div>
     </div>

@@ -20,7 +20,7 @@ export const Navigation = () => {
               href="https://www.linkedin.com/in/logan-bready/"
               target="_blank"
               data-tooltip-id="linkedIn"
-              data-tooltip-content="Say Hello on linkedIn!"
+              data-tooltip-content="Say hello on linkedIn!"
             >
               <LinkedIn
                 className={styles.icon}
