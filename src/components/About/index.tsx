@@ -6,15 +6,15 @@ export const About = () => {
   return (
     <div className={styles.aboutContainer}>
       <div className={styles.headShotContainer}>
-        <Image src={clearLogan} alt="8-bit-logan" height="250" width="250" />
+        <Image src={clearLogan} alt="Image of Logan" height="250" width="250" />
       </div>
       <div className={styles.aboutInformation}>
         <h1 className={styles.heading}>Logan Bready</h1>
-        <h3 className={styles.title}>Full Stack Engineer</h3>
+        <h3 className={styles.title}>Front End Engineer</h3>
       </div>
       <div className={styles.aboutMe}>
         <p>
-          Hi there! I&apos;m a passionate full stack engineer with a flair for
+          Hi there! I&apos;m a passionate front end engineer with a flair for
           crafting dynamic and user-centric web applications. My journey in the
           tech realm has revolved around harnessing the power of React,
           TypeScript/JavaScript, HTML, CSS, Express, and Node.js. I thrive on

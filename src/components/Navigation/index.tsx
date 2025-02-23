@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { LinkedIn } from '../Icons/LinkedIn'
-import { Github } from '../Icons/Github'
 import { Resume } from '../Icons/Resume'
 import { Tooltip } from 'react-tooltip'
 import 'react-tooltip/dist/react-tooltip.css'
@@ -13,7 +12,6 @@ export const Navigation = () => {
   return (
     <div className={styles.navigation}>
       <nav className={styles.nav}>
-        {/* <div className={styles.logo}>Logo</div> */}
         <ul>
           <li>
             <Link
@@ -35,24 +33,6 @@ export const Navigation = () => {
                 place="bottom"
                 className={styles.toolTip}
               />
-            )}
-          </li>
-          <li>
-            <Link
-              href="https://github.com/LoganBready"
-              target="_blank"
-              data-tooltip-id="Github"
-              data-tooltip-content="Check out my GitHub"
-            >
-              <Github
-                className={styles.icon}
-                height={44}
-                width={44}
-                color="#ABB2BF"
-              />
-            </Link>
-            {!isMobile && (
-              <Tooltip id="Github" place="bottom" className={styles.toolTip} />
             )}
           </li>
           <li>
